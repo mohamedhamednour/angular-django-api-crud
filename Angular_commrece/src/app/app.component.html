@@ -1,0 +1,22 @@
+<div class="max-w-[1900px]  m-0 main">
+
+<app-header></app-header>
+
+</div>
+
+<router-outlet></router-outlet>
+
+<app-footer></app-footer>
+<style>
+.main::-webkit-scrollbar {
+    width: 4px;
+    overflow-y: scroll;
+    background: grey;
+    box-shadow: inset 0 0 4px #707070;
+}
+
+.main::-webkit-scrollbar-thumb {
+    background: blue !important;
+    border-radius: 10px;
+}
+  </style>
